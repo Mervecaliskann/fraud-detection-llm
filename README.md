@@ -6,7 +6,7 @@ Banka işlemlerinde dolandırıcılığı (fraud) tespit eden ve her şüpheli i
 
 ## Neden bu repo var / Why this repo exists
 
-Sadece "bu işlem şüpheli" diyen bir model işin yarısını yapar. Bir bankada müfettişin hâlâ *neden* şüpheli olduğunu anlaması ve resmi bir rapor yazması gerekir — yavaş, manuel bir iş. Bu proje tespit modelini bir açıklama katmanıyla birleştirir: **XGBoost** şüpheliyi bulur, **SHAP** nedenini açıklar, **LLM** bunu Türkçe rapor taslağına çevirir.
+Sadece "bu işlem şüpheli" diyen bir model işin yarısını yapar. Bir bankada müfettişin hala *neden* şüpheli olduğunu anlaması ve resmi bir rapor yazması gerekir — yavaş, manuel bir iş. Bu proje tespit modelini bir açıklama katmanıyla birleştirir: **XGBoost** şüpheliyi bulur, **SHAP** nedenini açıklar, **LLM** bunu Türkçe rapor taslağına çevirir.
 
 Veri, herkese açık [PaySim](https://www.kaggle.com/datasets/ntnu-testimon/paysim1) sentetik mobil ödeme veri setidir. Gerçek müşteri verisi kullanılmamıştır.
 
